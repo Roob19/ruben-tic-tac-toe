@@ -9,21 +9,25 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+
     <div class="board" id="board">
-        <div class="cell" data-cell>ONE</div>
-        <div class="cell" data-cell>TWO</div>
-        <div class="cell" data-cell>THREE</div>
-        <div class="cell" data-cell>FOUR</div>
-        <div class="cell" data-cell>FIVE</div>
-        <div class="cell" data-cell>SIX</div>
-        <div class="cell" data-cell>SEVEN</div>
-        <div class="cell" data-cell>EIGHT</div>
-        <div class="cell" data-cell>NINE</div>
+        <div id="zero" class="cell" data-cell>X</div>
+        <div id="one" class="cell" data-cell>O</div>
+        <div id="two" class="cell" data-cell>X</div>
+        <div id="three" class="cell" data-cell>O</div>
+        <div id="four" class="cell" data-cell>X</div>
+        <div id="five" class="cell" data-cell>O</div>
+        <div id="six" class="cell" data-cell>X</div>
+        <div id="seven" class="cell" data-cell>O</div>
+        <div id="eight" class="cell" data-cell>X</div>
     </div>
 
     <div class="winning-message" id="winningMessage">
         <div data-winning-message-text></div>
-        <button id="restartButton">Restart</button>
+        <button id="restartButton" class="button-49">Restart</button>
     </div>
 </body>
 </html>
