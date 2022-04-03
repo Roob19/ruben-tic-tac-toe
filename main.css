@@ -3,6 +3,13 @@
     --mark-size: calc(var(--cell-size) * .9);
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8em;
+    line-height: 0.2em;
+    text-align: center;
+    margin: 0.5;
+}
 body {
     margin: 0;
     background-color: red;
