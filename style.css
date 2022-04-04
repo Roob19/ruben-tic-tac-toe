@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-body {
+html, body {
     background-color: #F8F005;
     font-size: 5rem;
     display: flex;
@@ -12,8 +12,26 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    
+    left: 0;   
+}
+
+h1 {
+    font-size: 0.5em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+td {
+    height: 200px;
+    width: 200px;
+}
+
+td div {
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    pointer-events: none;
 }
 
 #sq0, 
@@ -25,25 +43,25 @@ body {
 #sq3, 
 #sq4, 
 #sq5 {
-    border-top: 2px solid black;
+    border-top: 3px solid black;
 }
 
 #sq6, 
 #sq7, 
 #sq8 {
-    border-top: 2px solid black;
+    border-top: 3px solid black;
 }
 
 #sq0, 
 #sq3, 
 #sq6 {
-    border-right: 2px solid black;
+    border-right: 3px solid black;
 }
 
 #sq2, 
 #sq5, 
 #sq8 {
-    border-left: 2px solid black;
+    border-left: 3px solid black;
 }
 
 .cell{
