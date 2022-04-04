@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+}
+
+#sq0, 
+#sq1, 
+#sq2 {
+    border-top: 0;
+}
+
+#sq3, 
+#sq4, 
+#sq5 {
+    border-top: 2px solid black;
+}
+
+#sq6, 
+#sq7, 
+#sq8 {
+    border-top: 2px solid black;
+}
+
+#sq0, 
+#sq3, 
+#sq6 {
+    border-right: 2px solid black;
+}
+
+#sq2, 
+#sq5, 
+#sq8 {
+    border-left: 2px solid black;
+}

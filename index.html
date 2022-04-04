@@ -4,40 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben's TicTacToe</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <title>Ruben TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
 
-<p>__/\\\\\\\\\\\\\\\________________________________/\\\\\\\\\\\\\\\_________________________________________/\\\\\\\\\\\\\\\______________________________________</p>
-<p>__\///////\\\/////________________________________\///////\\\/////_________________________________________\///////\\\/////______________________________________</p>
-<p>_________\/\\\________/\\\_______________________________\/\\\____________________________________________________\/\\\__________________________________________</p>
-<p>__________\/\\\_______\///______/\\\\\\\\_________________\/\\\________/\\\\\\\\\________/\\\\\\\\_________________\/\\\___________/\\\\\________/\\\\\\\\_______</p>
-<p>___________\/\\\________/\\\___/\\\//////__________________\/\\\_______\////////\\\_____/\\\//////__________________\/\\\_________/\\\///\\\____/\\\/////\\\_____</p>
-<p>____________\/\\\_______\/\\\__/\\\_________________________\/\\\_________/\\\\\\\\\\___/\\\_________________________\/\\\________/\\\__\//\\\__/\\\\\\\\\\\_____</p>
-<p>_____________\/\\\_______\/\\\_\//\\\________________________\/\\\________/\\\/////\\\__\//\\\________________________\/\\\_______\//\\\__/\\\__\//\\///////_____</p>
-<p>______________\/\\\_______\/\\\__\///\\\\\\\\_________________\/\\\_______\//\\\\\\\\/\\__\///\\\\\\\\_________________\/\\\________\///\\\\\/____\//\\\\\\\\\\__</p>
-<p>_______________\///________\///_____\////////__________________\///_________\////////\//_____\////////__________________\///___________\/////_______\//////////__</p>
+    <h1></h1>
+    <table>
+      <tr>
+        <td id="sq0"><div>0</div></td>
+        <td id="sq1"><div>1</div></td>
+        <td id="sq2"><div>2</div></td>
+      </tr>
+      <tr>
+        <td id="sq3"><div>3</div></td>
+        <td id="sq4"><div>4</div></td>
+        <td id="sq5"><div>5</div></td>
+      </tr>
+      <tr>
+        <td id="sq6"><div>6</div></td>
+        <td id="sq7"><div>7</div></td>
+        <td id="sq8"><div>8</div></td>
+      </tr>
+    </table>
+    <button id="reset">RESET GAME</button>
 
-    <div class="board" id="board">
-        <div id="zero" class="cell" data-cell>X</div>
-        <div id="one" class="cell" data-cell>O</div>
-        <div id="two" class="cell" data-cell>X</div>
-        <div id="three" class="cell" data-cell>O</div>
-        <div id="four" class="cell" data-cell>X</div>
-        <div id="five" class="cell" data-cell>O</div>
-        <div id="six" class="cell" data-cell>X</div>
-        <div id="seven" class="cell" data-cell>O</div>
-        <div id="eight" class="cell" data-cell>X</div>
-    </div>
-<!-- blank -->
-    <div class="winning-message" id="winningMessage">
-        <div data-winning-message-text></div>
-        <button id="restartButton" class="button-49">Restart</button>
-    </div>
 </body>
 </html>
