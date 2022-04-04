@@ -15,6 +15,17 @@ const mCol = [sq1, sq4, sq7];
 const rCol = [sq2, sq5, sq8];
 const lDiag = [sq0, sq4, sq8];
 const rDiag = [sq2, sq4, sq6];
+const allCells = document.querySelectorAll('cell');
+const board = [allCells];
 const xClass = 'X';
 const oClass = 'O';
 
+let turn;
+
+const startGame =() => {
+    allCells.innerText = null;
+    let turn = xClass;
+    
+
+
+}
